@@ -1,2 +1,61 @@
 # Actividad-GitHub-
 Proyecto escolar de GitHub 
+ACTIVIDAD 3: PRUEBAS INTEGRALES CON GITHUB
+
+Nombre: Diana Solanch de la Cruz Morales
+Grupo: 2BP-GM
+Materia: Codifica
+Docente: Ana Berenice
+Fecha: 25/03
+Práctica: #17
+
+
+Descripción del proyecto:
+Se desarrolló un programa en C++ que permite capturar cinco calificaciones ingresadas por el usuario. 
+El sistema realiza la suma de las calificaciones y calcula el promedio final mediante una división. 
+Finalmente, muestra los resultados obtenidos en pantalla.
+
+
+Módulos del sistema:
+1. Captura de datos (calificaciones)
+2. Cálculo de suma
+3. Cálculo de promedio
+4. Mostrar resultados
+
+
+Código del programa:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Declaración de variables
+    int c1=0, c2=0, c3=0, c4=0, c5=0, rs=0, vd=0;
+
+    // Captura de datos
+    cout << "Primera calificación: ";
+    cin >> c1;
+
+    cout << "Segunda calificación: ";
+    cin >> c2;
+
+    cout << "Tercera calificación: ";
+    cin >> c3;
+
+    cout << "Cuarta calificación: ";
+    cin >> c4;
+
+    cout << "Quinta calificación: ";
+    cin >> c5;
+
+    // Operaciones
+    rs = c1 + c2 + c3 + c4 + c5;
+    vd = rs / 5;
+
+    // Resultados
+    cout << "Resultado de la suma: " << rs << endl;
+    cout << "Resultado del promedio: " << vd << endl;
+
+    return 0;
+}
