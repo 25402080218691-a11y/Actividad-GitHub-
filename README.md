@@ -2,12 +2,12 @@
 Proyecto escolar de GitHub 
 ACTIVIDAD 3: PRUEBAS INTEGRALES CON GITHUB
 
-Nombre: Diana Solanch de la Cruz Morales
+Nombres: Diana Solanch de la Cruz Morales
+         Mia anquelique Sánchez huizar
 Grupo: 2BP-GM
-Materia: Codifica
-Docente: Ana Berenice
+Materia: Implementa
+Docente: Manuel Zavala 
 Fecha: 25/03
-Práctica: #17
 
 
 Descripción del proyecto:
